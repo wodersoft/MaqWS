@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #868686;
+    display: block;
+}
+.menu_header {
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #55A79A;
+    position: relative;
+    z-index: 100;
+    background: white;
+}
+.container-header {
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+}
+.container-logo-title {
+    display: flex;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.container-logo-title img {
+    width: 80px;
+    height: 80px;
+}
+.container-logo-title h1 {
+    font-weight: 300;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.subtitulo {
+    font-size: 15px;
+    margin-bottom: 4px;
+}
+.menu {
+    position: absolute;
+    right: 15px;
+    margin-top: 20px;
+    z-index: 5;
+}
+.menu  ul li {
+    list-style: none;
+    font-size: 15px;
+    color: #868686;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    border-top: 4px solid transparent;
+    transition: border 300ms;
+    position: relative;
+}
+/*SLIDER*/
+
+#slider{
+    width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+#slider ul {
+    list-style: none;
+    width: 4000px;
+    display: flex;
+
+    animation: cambio 20s infinite alternate linear;
+}
+
+#slider img {
+    width:  1000px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0px;}
+    20% {margin-left: 0px;}
+
+    25% {margin-left: -1000px;}
+    45% {margin-left: -1000px;}
+
+    50% {margin-left: -2000px;}
+    70% {margin-left: -2000px;}
+
+    75% {margin-left: -3000px;}
+    100% {margin-left: -3000px;}
+}
