@@ -64,33 +64,33 @@ a{
 /*SLIDER*/
 
 #slider{
-    width: 1000px;
+    width: 700px;/*1000px*/
     margin: 30px auto;
     overflow: hidden;
 }
 
 #slider ul {
     list-style: none;
-    width: 4000px;
+    width: 2800px; /*4000px*/
     display: flex;
 
     animation: cambio 20s infinite alternate linear;
 }
 
 #slider img {
-    width:  1000px;
+    width:  700px; /*1000px*/
 }
 
 @keyframes cambio {
-    0% {margin-left: 0px;}
-    20% {margin-left: 0px;}
+    0% {margin-left: 0px;}/**/
+    20% {margin-left: 0px;}/**/
 
-    25% {margin-left: -1000px;}
-    45% {margin-left: -1000px;}
+    25% {margin-left: -700px;}/*-1000px*/
+    45% {margin-left: -700px;}/*-1000px*/
 
-    50% {margin-left: -2000px;}
-    70% {margin-left: -2000px;}
+    50% {margin-left: -1400px;}/*-2000px*/
+    70% {margin-left: -1400px;}/*-2000px*/
 
-    75% {margin-left: -3000px;}
-    100% {margin-left: -3000px;}
+    75% {margin-left: -2100px;}/*-3000px*/
+    100% {margin-left: -2100px;}/*-3000px*/
 }
