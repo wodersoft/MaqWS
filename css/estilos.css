@@ -258,3 +258,65 @@ a{
         margin-top: 0.8;
        
        }
+#contactos .art-contactos
+{
+        
+		
+		background: black ;
+		padding:25px 25px 0px 25px;
+		box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
+       height: 640px;
+        width: 690px;
+        float: left;
+		
+}
+#contactos
+	{
+		background: black ;
+		padding: 10px 0 10px;
+        	
+	}
+#contactos .art-contactos h3 
+{
+        
+		color: white;
+		
+}
+#contactos .art-contactos h4
+{
+        
+		color: white;
+		
+}
+#contactos .art-contactos h5
+{
+        
+		color: white;
+		
+}
+#contactos .aside
+{
+    background: black ;
+    padding:25px 25px 0px 25px;
+    box-shadow: 0px 1px 4px rgba(0,0,0, 0.2);
+    height: 640px;
+    width: 510px;
+    float: right;
+    
+}
+#contactos .aside h3
+{
+        
+	color: white;
+}
+#contactos .aside h4
+{
+        
+	color: white;
+}
+
+#contactos .aside h5
+{
+        
+	color: white;
+}
